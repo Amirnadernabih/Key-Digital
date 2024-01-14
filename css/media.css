@@ -44,3 +44,37 @@
     }
 }
 /* End Header */
+/* Start Features */
+@media (max-width: 767px) {
+    .col-lg-4,
+    .col-md-4,
+    .col-sm-12,
+    .col-lg-8,
+    .col-md-8 {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .mainfeatures img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+@media (max-width: 992px) {
+    .mainfeatures h2 {
+        font-size: 20px !important;
+    }
+}
+/* End Features */
+/* Start Footer */
+@media (max-width: 768px) {
+    .theFooter h6 {
+        font-size: 15px !important;
+    }
+    .theFooter p > a {
+        font-size: 14px;
+    }
+    .theFooter .footer-img {
+        width: 150px;
+    }
+}
+/* End Footer */
